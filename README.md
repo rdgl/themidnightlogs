@@ -70,8 +70,8 @@ Important: The client expects an API base URL. Provide it via `VITE_API_URL` (se
 ### Server (`server/.env`)
 
 ```ini
-dbUrl=mongodb://localhost:27017/midnight_logs
-JWT_SECRET=change-me
+dbUrl=(//)
+JWT_SECRET= //
 PORT=5000
 # Allowed frontend origin for CORS (defaults to http://localhost:5173)
 CLIENT_ORIGIN=http://localhost:5173
